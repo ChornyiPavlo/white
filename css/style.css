@@ -1028,7 +1028,7 @@ section#service_area {
 }
 
 .head_title.service.text-center {
-    padding-bottom: 80px;
+    padding-bottom: 30px;
 }
 .offers span {
     color: #f8aa27;
@@ -1707,6 +1707,10 @@ section#footer_area {
     height: 2px;
     display: block;
     margin-bottom: 20px;
+}
+.small_gallery img {
+  width: 76px;
+  height: 70px;
 }
 
 /** footer gallery column ****/
@@ -2728,11 +2732,18 @@ section#testimonial_area_two {
     height: 2px; 
     display: inline-block;
 }
-.page_titel h3{
+.page_titel h3, .page_titel h3 a{
 	font-family: 'Poppins', sans-serif;
 	color:#000000;
 	font-size:14px;
 	font-weight:600;
+}
+.page_titel h3 a:hover{
+  color: #f8aa27;
+}
+.logo-nav {
+  margin-top: 10px;
+  height: 76px;
 }
 .single_service {
     overflow: hidden;
