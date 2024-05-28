@@ -328,7 +328,7 @@ a.navbar-brand {
 .nav>li>a {
     position: relative;
     display: block;
-    line-height: 61px;
+    line-height: 65px;
     font-family: Titillium Web;
     font-size: 13px;
 }
@@ -366,7 +366,8 @@ a.navbar-brand {
 .navbar-nav .dropdown-menu {
     white-space: normal;
     margin-top: 0 !important;
-	width:230px !important;
+	width:70px !important;
+  min-width: 70px!important;
 }
 .navbar-toggle {
   background-color: transparent;
