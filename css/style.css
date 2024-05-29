@@ -361,6 +361,9 @@ a.navbar-brand {
 .dropdown-menu{
 	background:none;
 }
+.nav a.active, .copy_right a.active {
+  color: #ffc003;
+}
 .nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
 	background:none !important;
 }
