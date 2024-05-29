@@ -1999,6 +1999,13 @@ a.logo {
     padding-left: 20px;
     line-height: 50px !important;
   }
+  .choose_text {
+     height: unset;
+     padding-bottom: 30px;
+  }
+  .choose_icon {
+    height: unset;
+  }
 }
 @media (min-width: 767px) {
   .nav-side-menu .menu-list .menu-content {
