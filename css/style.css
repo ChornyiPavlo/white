@@ -236,7 +236,7 @@ a, a:hover, a:active, a:focus {
 .sticky-wrapper { 
     left: 0;
     top: 0;
-    width: 100%;
+    width: 101%;
     z-index: 999; 
     transition: .4s;
     -moz-transition: .4s;
@@ -316,7 +316,8 @@ a.navbar-brand {
     border: 1px solid #fff; 
     overflow: hidden;
 	margin-top: 20px;
-} 
+	margin-left: 10px;
+}
 .navbar-collapse.collapse.in {
      background: url(../img/home-1/header_bg.jpg) repeat;
 	 
@@ -2584,7 +2585,7 @@ Home page two service area
 #service_area_two{
 	background:url(../img/home-2/service-bg.jpg);
 	height:620px;
-	width:100%;
+	width:101%;
 	background-size:cover;
 	color:#fff;
 }
