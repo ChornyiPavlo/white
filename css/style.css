@@ -1101,7 +1101,7 @@ section#testimonial_area {
     text-align: right;
 }
 .time_line_area{
-	position:relative; 
+	position:relative;@
 }
 .time_line_area:before {
     content: "";
@@ -2004,6 +2004,13 @@ a.logo {
   }
   .choose_icon {
     height: unset;
+  }
+  .cercle {
+    right: 10%;
+    top: 130%;
+  }
+  .time_line_area{
+    height: 2190px!important;
   }
 }
 @media (min-width: 767px) {
