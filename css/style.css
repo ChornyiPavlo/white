@@ -360,7 +360,7 @@ a.navbar-brand {
 .dropdown-menu{
 	background:none;
 }
-.nav a.active, .copy_right a.active {
+.nav a.active, .copy_right a.active, .copy_left a.active {
   color: #ffc003;
 }
 .nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
@@ -1820,26 +1820,39 @@ input#exampleInputAmount {
 }
 .copy_left p  span{
 	color:#fff;
-	
 }
 .copy_right {
     float: right;
     padding-top: 2%;
 }
-.copy_right ul{
+.copy_left {
+  padding-top: 2%;
+}
+.copy_right ul, .copy_left ul{
 	margin:0;
 	padding:0;
 	list-style:none;
 }
-.copy_right ul li{
+.copy_right ul li, .copy_left ul li{
 	float:left; 
-	padding:0 0 !important;
 }
-.copy_right ul li a{
+.copy_left ul li:first-child{
+  color: #474747;
+  font-size: 12px;
+  font-family: poppins;
+  font-weight: 600;
+  padding-top: 3px;
+  padding-right: 10px;
+}
+
+.copy_right ul li a, .copy_left ul li a{
 	text-decoration:none;
 	color:#474747;
 	font-size:12px;
 	padding:10px
+}
+.copy_right a:hover, .copy_left a:hover {
+  color: #DF451B;
 }
 hr.horizenal {
     border-top: 1px solid #474747 !important;
@@ -2011,6 +2024,10 @@ a.logo {
   }
   .time_line_area{
     height: 2190px!important;
+  }
+  .copy_left ul{
+    display: flex;
+    justify-content: center;
   }
 }
 @media (min-width: 767px) {
@@ -2750,13 +2767,13 @@ section#testimonial_area_two {
     height: 2px; 
     display: inline-block;
 }
-.page_titel h3, .page_titel h3 a{
+.page_titel h3, .page_titel h3 a, #terms_area .great a{
 	font-family: 'Poppins', sans-serif;
 	color:#000000;
 	font-size:14px;
 	font-weight:600;
 }
-.page_titel h3 a:hover{
+.page_titel h3 a:hover, #terms_area .great a:hover{
   color: #f8aa27;
 }
 .logo-nav {
@@ -3944,6 +3961,9 @@ div#shop_area {
     font-size: 14px;
     font-family: Bitter;
     font-weight: 600;
+}
+.terms {
+  margin: 10% 0
 }
  
  
